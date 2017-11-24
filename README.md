@@ -1,1 +1,1 @@
-# py-algo-trading!
+# py-algo-trading
