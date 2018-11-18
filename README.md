@@ -1,7 +1,4 @@
-# py-algo-trading
+Algorithmic Trading
 
-* Quantstart
-  1.
-  2.
-  3.
-  
+Statisticall modelling of stocks, Forecast, basic strategies and what not!
+Everything related to algorithmic trading!
