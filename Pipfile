@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+plotly = "*"
+kloudtrader = {editable = true, git = "https://github.com/KloudTrader/kloudtrader.git"}
+statsmodels = "*"
+matplotlib = "*"
+simplejson = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
