@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fb4bdcb925a2de32f297912918d067da135398064f8ec64a5c190e9e83c5f2ff"
+            "sha256": "afc773871969fef952544f913487e2b271c53813d8937d8b66c49104deef8f68"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,24 +18,24 @@
     "default": {
         "boto3": {
             "hashes": [
-                "sha256:177e9dd53db5028bb43050da20cc7956287889fc172e5e6275a634e42a10beeb",
-                "sha256:8c63e616b91907037ab19236afbcf0057efb31411faf38b46f4590e634dc17ea"
+                "sha256:cd606ce834df58c3401bbe44a4a00de972094da14bbc1c00c7238707f1f03fe0",
+                "sha256:e39701c2f167986abc636eddaec6fe0bb0c493956d3631def0302b47eabbbd4f"
             ],
-            "version": "==1.9.50"
+            "version": "==1.9.61"
         },
         "botocore": {
             "hashes": [
-                "sha256:07fae5a2b8cfb5a92c1dbee3f2feb4da7c471bcead7e18ce735babe5f39e270f",
-                "sha256:eeaa190f50ee05a56225ee78c64cb8bf0c3bf090ec605ca6c2f325aa3826a347"
+                "sha256:7145e611c05d84e0f005b972869a71eaba6a57c212cac4f127ccc441612a07ad",
+                "sha256:946c24b616cc885d490a6999026125524e85751540eb4af501673d0f5bc7eee1"
             ],
-            "version": "==1.12.50"
+            "version": "==1.12.61"
         },
         "certifi": {
             "hashes": [
-                "sha256:339dc09518b07e2fa7eda5450740925974815557727d6bd35d319c1524a04a4c",
-                "sha256:6d58c986d22b038c8c0df30d639f23a3e6d172a05c3583e766f4c0b785c0986a"
+                "sha256:47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7",
+                "sha256:993f830721089fef441cdfeb4b2c8c9df86f0c63239f06bd025a76a7daddb033"
             ],
-            "version": "==2018.10.15"
+            "version": "==2018.11.29"
         },
         "chardet": {
             "hashes": [
@@ -136,8 +136,8 @@
         },
         "kloudtrader": {
             "editable": true,
-            "git": "https://github.com/KloudTrader/kloudtrader.git",
-            "ref": "bf2b46182339fae3d133568d556f8850ebb4e4e8"
+            "git": "https://github.com/debuggermalhotra/kloudtrader-internal.git",
+            "ref": "6584245b2d2d65214e00604d34a81667c26badff"
         },
         "matplotlib": {
             "hashes": [
@@ -199,6 +199,14 @@
             "index": "pypi",
             "version": "==1.15.4"
         },
+        "numpy-ringbuffer": {
+            "hashes": [
+                "sha256:ac79c60b6d92a688ad152a11d351d9efc2e0749973f71e18a8c9b3b1241a3cef",
+                "sha256:cf92824565258b9d59a6fd39a7b50af08f0733f0b15c819e82eafdf28989b1d6"
+            ],
+            "index": "pypi",
+            "version": "==0.2.1"
+        },
         "pandas": {
             "hashes": [
                 "sha256:11975fad9edbdb55f1a560d96f91830e83e29bed6ad5ebf506abda09818eaf60",
@@ -234,11 +242,11 @@
         },
         "plotly": {
             "hashes": [
-                "sha256:53c647fdb28590de838678029f7d8fdc42f5ba4643d13c2afd2c4e4d56e18426",
-                "sha256:5dc85bde91bc80fa05f0d89e9f3a8eaee735b2b404047266874e0ff9c104407f"
+                "sha256:c988d923e0b0627085b9700e2757003552ae9ccd7daa3a4b067ce60a0c7e642f",
+                "sha256:cd1ef8f3c2e688b52d60b4e950b4e277dfe4fd165d7019957d0241062f8a4811"
             ],
             "index": "pypi",
-            "version": "==3.4.1"
+            "version": "==3.4.2"
         },
         "pyparsing": {
             "hashes": [

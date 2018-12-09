@@ -30,3 +30,20 @@ def get_trades(symbol):
         return response.json()
     except:
         raise ("Did not recieve any data. Status Code: {}".format(response.status_code))
+
+
+
+
+def get_ask_prices(symbol):
+    response=get(API_URL+"quotes/"+symbol)
+    try:
+        import numpy as np
+        from numpy_ringbuffer import RingBuffer
+        from time import sleep
+        r = RingBuffer(capacity=4,dtype=float)
+        for x in response.json():
+            r.append(x['ask'])
+            np.array(r)
+            return np.array(r)
+    except:
+        raise ("Did not recieve any data. Status Code: {}".format(response.status_code))

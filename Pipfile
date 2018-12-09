@@ -7,10 +7,11 @@ name = "pypi"
 pandas = "*"
 numpy = "*"
 plotly = "*"
-kloudtrader = {editable = true, git = "https://github.com/KloudTrader/kloudtrader.git"}
 statsmodels = "*"
 matplotlib = "*"
 simplejson = "*"
+numpy-ringbuffer = "*"
+kloudtrader = {editable = true, git = "https://github.com/debuggermalhotra/kloudtrader-internal.git"}
 
 [dev-packages]
 
