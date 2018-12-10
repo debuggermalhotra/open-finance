@@ -19,4 +19,11 @@ df['Sell']=df.apply(lambda y : 1 if y['SMA']<y['LMA'] and y['SMA2']>y['LMA2'] el
 df['Signal']=df['Buy']+df['Sell']
 df['Daily Returns']=df['close'].pct_change()
 df['Strategy Returns']=df['Daily Returns']*df['Signal'].shift(1)
-print(df)
+
+for index,row in df.iterrows():
+    if row['Signal']==1:
+        if row['Buy']==1:
+            print(df.loc[df['Buy']==1])
+        else:
+            print(df.loc[df['Buy']==0])
+            

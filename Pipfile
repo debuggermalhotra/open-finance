@@ -12,6 +12,9 @@ matplotlib = "*"
 simplejson = "*"
 numpy-ringbuffer = "*"
 kloudtrader = {editable = true, git = "https://github.com/debuggermalhotra/kloudtrader-internal.git"}
+streamz = "*"
+raccoon = "*"
+numpy-buffer = {editable = true, git = "https://github.com/scls19fr/numpy-buffer"}
 
 [dev-packages]
 
