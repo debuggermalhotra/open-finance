@@ -1,4 +1,3 @@
-Algorithmic Trading
+Financial, statistical models and Algorithmic Trading strategies. Mostly Python, R and Julia
 
-Statisticall modelling of stocks, Forecast, basic strategies and what not!
-Everything related to algorithmic trading!
+
