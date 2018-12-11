@@ -40,7 +40,7 @@ for quotes in live_feed_handler('AAPL'):
           
 
         if len(SignalBuffer)==SignalBuffer.maxlen:
-            '''
+            
             short_count=0
             long_count=0
             for ele in list(SignalBuffer): 
@@ -50,9 +50,8 @@ for quotes in live_feed_handler('AAPL'):
                     long_count = long_count + 1
             print("Long count {}".format(long_count)
             print("Short count {}".format(short_count))
-            '''
-            max(len(list(v)) for g,v in itertools.groupby(list(SignalBuffer)))
-            SignalBuffer.pop()
+            
+            
              
 
                 
