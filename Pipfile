@@ -11,10 +11,11 @@ statsmodels = "*"
 matplotlib = "*"
 simplejson = "*"
 numpy-ringbuffer = "*"
-kloudtrader = {editable = true, git = "https://github.com/debuggermalhotra/kloudtrader-internal.git"}
 streamz = "*"
 raccoon = "*"
 numpy-buffer = {editable = true, git = "https://github.com/scls19fr/numpy-buffer"}
+qstk = {editable = true, git = "https://github.com/romanbsd/QuantSoftwareToolkit.git"}
+kloudtrader = {editable = true, git = "https://github.com/debuggermalhotra/kloudtrader-internal.git"}
 
 [dev-packages]
 
